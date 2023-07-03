@@ -1,0 +1,167 @@
+export const ProductsData = [
+  {
+    id: 1,
+    sku: 1234123421341324,
+    quantity: 1,
+    title: "sunt aut facere repellat provi",
+    description:
+      "quia et suscipit\nsuscipit recusandae consequunturrerum est autem sunt rem eveniet architecto",
+    availableSizes: ["X", "L", "XL"],
+    price: 10.9,
+    isFreeShipping: false,
+  },
+  {
+    id: 2,
+    sku: 12341234213412324,
+    quantity: 1,
+    title: "qui est esse dsdcsdc  vwee",
+    description:
+      "est rerum tempore vitae\nsequiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
+    availableSizes: ["X", "S", "XS"],
+    price: 15.9,
+    isFreeShipping: false,
+  },
+  {
+    id: 3,
+    sku: 12333123421341324,
+    quantity: 1,
+    title: "ea molestias quasi exercitatione aut",
+    description:
+      "et iusto sed quo iure\nvolusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
+    availableSizes: ["S", "M", "XL"],
+    price: 12.9,
+    isFreeShipping: false,
+  },
+  {
+    id: 4,
+    sku: 122234123421341324,
+    quantity: 1,
+    title: "eum et est occaecati",
+    description:
+      "ullam et saepe reiuis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
+    availableSizes: ["M", "S", "XL"],
+    price: 20.9,
+    isFreeShipping: true,
+  },
+  {
+    id: 5,
+    sku: 123412342134132334,
+    quantity: 1,
+    title: "nesciunt quas odio",
+    description:
+      "repudiandae venimnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
+    availableSizes: ["X", "L"],
+    price: 8.9,
+    isFreeShipping: true,
+  },
+  {
+    id: 6,
+    sku: 123412342221341324,
+    quantity: 1,
+    title: "dolorem eum magni eos aperiam quia",
+    description:
+      "ut aspernatur corporis harum nihil quis pstiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae",
+    availableSizes: ["X", "XL"],
+    price: 5.9,
+    isFreeShipping: true,
+  },
+  {
+    id: 7,
+    sku: 123412342111341324,
+    quantity: 1,
+    title: "magnam facilis autem",
+    description:
+      "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
+    availableSizes: ["X", "S"],
+    price: 11.9,
+    isFreeShipping: false,
+  },
+  {
+    id: 8,
+    sku: 123412342134132224,
+    quantity: 1,
+    title: "dolorem dolore est ipsam",
+    description:
+      "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
+    availableSizes: ["X", "S", "XLL"],
+    price: 17.9,
+    isFreeShipping: true,
+  },
+  {
+    id: 9,
+    sku: 123412343321341324,
+    quantity: 1,
+    title: "nesciunt iure omnis dolorem tempora et accusantium",
+    description:
+      "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
+    availableSizes: ["XL"],
+    price: 19.9,
+    isFreeShipping: false,
+  },
+  {
+    id: 10,
+    sku: 123413323421341324,
+    quantity: 1,
+    title: "optio molestias id quia eum",
+    description:
+      "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error",
+    availableSizes: ["XS", "M"],
+    price: 22.9,
+    isFreeShipping: true,
+  },
+  {
+    id: 11,
+    sku: 111234123421341324,
+    quantity: 1,
+    title: "et ea vero quia laudantium autem",
+    description:
+      "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi",
+    availableSizes: ["XLL", "S", "XL"],
+    price: 13.3,
+    isFreeShipping: false,
+  },
+  {
+    id: 12,
+    sku: 123412333421341324,
+    quantity: 1,
+    title: "in quibusdam tempore odit est dolorem",
+    description:
+      "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio",
+    availableSizes: ["S", "M", "XLL"],
+    price: 25.9,
+    isFreeShipping: true,
+  },
+  {
+    id: 13,
+    sku: 123412342551341324,
+    quantity: 1,
+    title: "dolorum ut in voluptas mollitia et saepe quo animi",
+    description:
+      "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
+    availableSizes: ["S", "M", "L"],
+    price: 26.9,
+    isFreeShipping: false,
+  },
+  {
+    id: 14,
+    sku: 123413323421341324,
+    quantity: 1,
+    title: "voluptatem eligendi optio",
+    description:
+      "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum",
+    availableSizes: ["XS", "L", "XL"],
+    price: 10.9,
+    isFreeShipping: true,
+  },
+  {
+    id: 15,
+    sku: 12341237721341324,
+    quantity: 1,
+    title: "eveniet quod temporibus",
+    description:
+      "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae",
+    availableSizes: ["M"],
+    price: 16.9,
+    isFreeShipping: false,
+  },
+];
