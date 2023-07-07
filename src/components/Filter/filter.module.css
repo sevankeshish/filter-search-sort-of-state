@@ -13,9 +13,11 @@
 .selectContainer{
     display: flex;
     align-items: center;
+    gap:20px;
 }
 
 .selectContainer span{
     display: block;
     margin-right: 1rem;
+
 }
