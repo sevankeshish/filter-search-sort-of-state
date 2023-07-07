@@ -48,8 +48,12 @@ const reducer = (state, action) => {
       const filteredProducts = state.filter((e) => e.id !== action.id);
       return filteredProducts;
     case "filter":
-      console.log(action.event.target.value);
-      return state;
+      if(action.event.target.value === ""){
+        return ProductsData
+      } else {
+        const updatedProducts = ProductsData.filter((p)=> p.availableSizes.indexOf(action.event.target.value) >= 0)
+        return updatedProducts
+      }
     default:
       return state;
   }
