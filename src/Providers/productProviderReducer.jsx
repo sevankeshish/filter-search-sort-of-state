@@ -47,13 +47,15 @@ const reducer = (state, action) => {
     case "delete":
       const filteredProducts = state.filter((e) => e.id !== action.id);
       return filteredProducts;
-    case "filter":
-      if(action.event.target.value === ""){
+    case "filter":{
+      const value = action.selectedOption.value
+      if(value === ""){
         return ProductsData
       } else {
-        const updatedProducts = ProductsData.filter((p)=> p.availableSizes.indexOf(action.event.target.value) >= 0)
+        const updatedProducts = ProductsData.filter((p)=> p.availableSizes.indexOf(value) >= 0)
         return updatedProducts
       }
+    }
     default:
       return state;
   }
