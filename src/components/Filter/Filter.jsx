@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useProductAction } from "../../Providers/productProviderReducer";
-import Select from 'react-select'
+import SelectComponent  from "../../common/Select/Select";
 
 import styles from "./filter.module.css"
 
@@ -44,9 +44,20 @@ const Filter = () => {
   return (
     <div className={styles.filter}>
       <p>filter products bassed on: </p>
-      <div className={styles.selectContainer}>
-        <span> order by </span>
-        {/* <select onChange={changeHandler} value={value}>
+        <SelectComponent 
+          title="sort by size" 
+          value={value}
+          onChange={changeHandler} 
+          options={options} 
+          className={styles.select}
+        />
+        <SelectComponent 
+          title="sort by price" 
+          value={sortValue} 
+          onChange={sortHandler} 
+          options={sortOptions}
+        />
+           {/* <select onChange={changeHandler} value={value}>
           <option value="">All</option>
           <option value="XS">XS</option>
           <option value="S">S</option>
@@ -55,11 +66,7 @@ const Filter = () => {
           <option value="XL">XL</option>
           <option value="XLL">XLL</option>
         </select> */}
-        
-        <Select value={value} onChange={changeHandler} options={options} className={styles.select}/>
-        <Select value={sortValue} onChange={sortHandler} options={sortOptions} className={styles.select}/>
       </div>
-    </div>
   );
 };
 
