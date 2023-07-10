@@ -22,7 +22,6 @@ import ProductProviders, {
 } from "./Providers/productProviders";
 import ProductProviderReducer from "./Providers/productProviderReducer";
 import Filter from "./components/Filter/Filter";
-import SearchBar from "./common/Search/Search";
 
 // export const UserContext = createContext();
 // export const WebContext = createContext();
@@ -63,9 +62,6 @@ const App = () => {
         // totalItems={this.state.products.filter((p) => p.quantity > 0).length}
         // totalItems={products.length}
         />
-        <SearchBar>
-          
-        </SearchBar>
         <Filter />
         <ProductList
         // products={products}
